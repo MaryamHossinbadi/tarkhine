@@ -1,0 +1,107 @@
+.title{
+    text-align: right;
+    padding: 4px;
+    margin-left: 12px;
+}
+
+.blog-card{
+    display: flex;
+    flex-direction: column;
+    margin: 16px auto;
+    box-shadow: 0 8px 7px -12px rgb(231, 227, 223);
+    background-color: #c47070;
+    line-height: 2.3;
+    border-radius: 5px;
+    z-index: 0;
+    overflow: hidden;
+}
+.blog-card a{
+    color: #fff;
+}
+.blog-card a:hover{
+    color: #053f1c;
+}
+.blog-card .meta1{
+    position: relative;
+    height: 300px;
+}
+.blog-card .meta1 .photo1{
+    background-image: url("../img-food/img_2.png");
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    transition: transform .2s;
+}
+.blog-card:hover .photo1{
+transform: scale(1.3) rotate(3deg);
+}
+.blog-card .meta1 .details{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 12px;
+    width: 100%;
+    opacity:0 ;
+}
+.blog-card:hover .meta1 .details{
+    opacity: 1;
+}
+.blog-card .meta1 .details ul li{
+    display: inline-block;
+}
+.blog-card .meta1 .details .food-name,
+.blog-card .meta1 .details .tag{
+    margin: 12px;
+    width: 125px;
+    font-size: 16px;
+}
+.blog-card .description{
+    padding: 18px;
+    position: relative;
+    z-index: 1;
+    background-color: #ffff;
+}
+.blog-card .description h2{
+    line-height: 2;
+}
+
+.blog-card .description .read{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    font-size: 20px;
+}
+
+@media  screen and (min-width: 640px){
+.blog-card{
+    flex-direction: row;
+    max-width: 700px;
+}
+    .blog-card .meta1{
+        height: auto;
+        flex-basis: 40%;
+    }
+    .blog-card .description:before{
+     content: "";
+      background-color: #fffdfd;
+        position: absolute;
+        width: 12px;
+        top:0;
+        right: -4px;
+        bottom: 0;
+        transform: skew(-3deg);
+
+    }
+
+
+
+}
+

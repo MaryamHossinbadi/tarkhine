@@ -1,0 +1,25 @@
+.container-fluid-custom{
+    background-color: #fafafa;
+    height: 75px;
+    color: black;
+    box-shadow: 1px 1px 1px 1px #e7e3df;
+    position: static;
+}
+.container-fluid-custom .social-media a img{
+    /*color: #549b54;*/
+    margin-right: 7px;
+    /*background-color: #d1e3d1;*/
+    direction: rtl;
+    height: 32px;
+    vertical-align: -35px;
+}
+.container-fluid-custom .social-media a img:hover{
+    background-color:#89bc9a;
+}
+
+.container-fluid-custom .logo{
+    direction: rtl;
+}
+.container-fluid-custom .logo img{
+    vertical-align: -48px;
+}

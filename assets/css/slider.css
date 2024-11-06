@@ -1,0 +1,39 @@
+#slider{
+    width: 100%;
+    height: 465px;
+    position: relative;
+}
+#slider img{
+    width: 100%;
+    height: 465px;
+}
+.slide{
+    display: none;
+}
+.slide.active{
+    display: block;
+}
+.previous,.next-one{
+    font-size: 45px;
+    text-decoration: none;
+    color: #0e0c0c;
+    position: absolute;
+    top: 50%;
+    font-weight: 700;
+}
+.previous{
+    left: 8px;
+}
+.next-one{
+    right: 8px;
+}
+.overlay{
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    height: 465px;
+}
+.header-title{
+    color: #1c1810;
+    margin: 290px;
+
+}

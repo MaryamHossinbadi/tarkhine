@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<header class="tarkhine__header">
+    <nav class="header__nav">
+        <div class="header__hamburger">
+            <div class="hamburger__line"></div>
+            <div class="hamburger__line"></div>
+            <div class="hamburger__line"></div>
+        </div>
+        <div class="header__logo">
+            <img src="../src/data/full-logo.svg" alt="" />
+        </div>
+        <div class="header__links">
+            <div class="modal-background"></div>
+            <div class="search-modal"></div>
+            <div class="search--function">
+                <div class="close--serach--panel">
+                    <span class="close--serach--panel--mark">✖</span>
+                    <p>جستجو</p>
+                </div>
+                <div class="function--serach--panel">
+                    <p>لطفا متن خود را تایپ و سپس دکمه Enter را بزنید.</p>
+                    <div class="search-box">
+                        <input
+                                type="text"
+                                name="searchBox"
+                                id="searchBox"
+                                placeholder="جستجو"
+                        />
+                        <button class="search-box-img">
+                            <img src="../src/data/search-normal-black.svg" alt="" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="header__links__items">
+                <li class="image--panel--parent">
+                    <span class="close-panel">✖</span>
+                    <img src="../src/data/panel-logo.svg" alt="" />
+                </li>
+                <li class="header__link--item">
+                    <div class="badge-icon only-phone">
+                        <img src="../src/data/home.svg" alt="" />
+                    </div>
+                    <a href="../index.html"> صفحه اصلی </a>
+                </li>
+                <li class="header__link--item place__item">
+                    <div class="badge-icon only-phone">
+                        <img src="../src/data/home-hashtag.svg" alt="" />
+                    </div>
+                    <a href="./foods.html" class="flex__link">
+                        <i class="fas fa-caret-down only-desktop"></i>
+                        شعبه
+                    </a>
+                    <div class="place__dropdown only-desktop">
+                        <ul class="place__dropdown__UL">
+                            <li>
+                                <a href="../public/foods.html"> اکباتان </a>
+                            </li>
+                            <li>
+                                <a href="../public/foods.html"> چالوس </a>
+                            </li>
+                            <li>
+                                <a href="../public/foods.html"> اقدسیه </a>
+                            </li>
+                            <li>
+                                <a href="../public/foods.html"> ونک </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="header__link--item place__item header__menuBar">
+                    <div class="badge-icon only-phone">
+                        <img src="../src/data/menu-board.svg" alt="" />
+                    </div>
+                    <a class="flex__link" href="./menu.html">
+                        <i class="fas fa-caret-down only-desktop"></i>
+                        منو
+                    </a>
+                    <div class="place__dropdown only-desktop">
+                        <ul class="place__dropdown__UL">
+                            <li>
+                                <a class="menu_link" href="../public/menu.html">
+                                    غذای اصلی
+                                </a>
+                            </li>
+                            <li>
+                                <a class="menu_link" href="../public/menu.html">
+                                    پیش غذا
+                                </a>
+                            </li>
+                            <li>
+                                <a class="menu_link" href="../public/menu.html"> دسر </a>
+                            </li>
+                            <li>
+                                <a class="menu_link" href="../public/menu.html">
+                                    نوشیدنی
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="header__link--item">
+                    <div class="badge-icon only-phone">
+                        <img src="../src/data/command-square.svg" alt="" />
+                    </div>
+                    <a href="../public/contribute.html"> اعطای نمایندگی </a>
+                </li>
+                <li class="header__link--item">
+                    <div class="badge-icon only-phone">
+                        <img src="../src/data/profile-2user.svg" alt="" />
+                    </div>
+                    <a href="../public/about-us.html"> درباره ما </a>
+                </li>
+                <li class="header__link--item">
+                    <div class="badge-icon only-phone">
+                        <img src="../src/data/call-calling.svg" alt="" />
+                    </div>
+                    <a href="../public/contact-us.html"> تماس با ما </a>
+                </li>
+            </ul>
+        </div>
+        <div class="header__cta">
+            <div class="cta__item cta--user">
+                <img src="../src/data/user-icon.svg" alt="" />
+                <img
+                        src="../src/data/arrow-down.svg"
+                        class="arrow-down-profile"
+                        alt=""
+                />
+                <div class="place__dropdown profile__menu">
+                    <ul class="place__dropdown__UL">
+                        <li>
+                            <a href="../public/dashboard.html"> داشبورد </a>
+                        </li>
+                        <li>
+                            <a href="../public/cart.html"> سبد خرید </a>
+                        </li>
+                        <li>
+                            <a href="../public/order.html"> سفارشات </a>
+                        </li>
+                        <li>
+                            <a href="../public/settings.html"> تنظیمات </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cta__item cta--cart"></div>
+            <div class="cta__item cta--search">
+                <img src="../src/data/search-normal.svg" alt="" />
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- slider -->
+<div class="container-slider menu-slider">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide-1">
+                <h2 class="swiper__description">
+                    لذت غذای سالم و گیاهی را با ترخینه تجربه کنید!
+                </h2>
+            </div>
+            <div class="swiper-slide slide-1">
+                <h2 class="swiper__description">
+                    لذت غذای سالم و گیاهی را با ترخینه تجربه کنید!
+                </h2>
+            </div>
+            <div class="swiper-slide slide-1">
+                <h2 class="swiper__description">
+                    لذت غذای سالم و گیاهی را با ترخینه تجربه کنید!
+                </h2>
+            </div>
+            <div class="swiper-slide slide-1">
+                <h2 class="swiper__description">
+                    لذت غذای سالم و گیاهی را با ترخینه تجربه کنید!
+                </h2>
+            </div>
+            <div class="swiper-slide slide-1">
+                <h2 class="swiper__description">
+                    لذت غذای سالم و گیاهی را با ترخینه تجربه کنید!
+                </h2>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-pane">
+            <img src="../src/data/slider-pane.svg" />
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</div>
+
+<!-- food type -->
+<ul class="menu-food--type">
+    <li class="menu-food--link active-link">غذای اصلی</li>
+    <li class="menu-food--link">پیش غذا</li>
+    <li class="menu-food--link">دسر</li>
+    <li class="menu-food--link">نوشیدنی</li>
+</ul>
+
+<!-- food chips -->
+<ul class="menu-food--chips">
+    <li class="menu-food--chips__item">
+        غذا های ایرانی
+        <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+        >
+            <path
+                    d="M10.5 13.78C10.3734 13.78 10.2467 13.7333 10.1467 13.6333L5.80002 9.28668C5.09335 8.58001 5.09335 7.42001 5.80002 6.71335L10.1467 2.36668C10.34 2.17335 10.66 2.17335 10.8534 2.36668C11.0467 2.56001 11.0467 2.88001 10.8534 3.07335L6.50669 7.42001C6.18669 7.74001 6.18669 8.26001 6.50669 8.58001L10.8534 12.9267C11.0467 13.12 11.0467 13.44 10.8534 13.6333C10.7534 13.7267 10.6267 13.78 10.5 13.78Z"
+                    fill="#353535"
+            />
+        </svg>
+    </li>
+    <li class="menu-food--chips__item">
+        غذا های غیر ایرانی
+        <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+        >
+            <path
+                    d="M10.5 13.78C10.3734 13.78 10.2467 13.7333 10.1467 13.6333L5.80002 9.28668C5.09335 8.58001 5.09335 7.42001 5.80002 6.71335L10.1467 2.36668C10.34 2.17335 10.66 2.17335 10.8534 2.36668C11.0467 2.56001 11.0467 2.88001 10.8534 3.07335L6.50669 7.42001C6.18669 7.74001 6.18669 8.26001 6.50669 8.58001L10.8534 12.9267C11.0467 13.12 11.0467 13.44 10.8534 13.6333C10.7534 13.7267 10.6267 13.78 10.5 13.78Z"
+                    fill="#353535"
+            />
+        </svg>
+    </li>
+    <li class="menu-food--chips__item">
+        پیتزا ها
+        <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+        >
+            <path
+                    d="M10.5 13.78C10.3734 13.78 10.2467 13.7333 10.1467 13.6333L5.80002 9.28668C5.09335 8.58001 5.09335 7.42001 5.80002 6.71335L10.1467 2.36668C10.34 2.17335 10.66 2.17335 10.8534 2.36668C11.0467 2.56001 11.0467 2.88001 10.8534 3.07335L6.50669 7.42001C6.18669 7.74001 6.18669 8.26001 6.50669 8.58001L10.8534 12.9267C11.0467 13.12 11.0467 13.44 10.8534 13.6333C10.7534 13.7267 10.6267 13.78 10.5 13.78Z"
+                    fill="#353535"
+            />
+        </svg>
+    </li>
+    <li class="menu-food--chips__item">
+        ساندویچ ها
+        <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+        >
+            <path
+                    d="M10.5 13.78C10.3734 13.78 10.2467 13.7333 10.1467 13.6333L5.80002 9.28668C5.09335 8.58001 5.09335 7.42001 5.80002 6.71335L10.1467 2.36668C10.34 2.17335 10.66 2.17335 10.8534 2.36668C11.0467 2.56001 11.0467 2.88001 10.8534 3.07335L6.50669 7.42001C6.18669 7.74001 6.18669 8.26001 6.50669 8.58001L10.8534 12.9267C11.0467 13.12 11.0467 13.44 10.8534 13.6333C10.7534 13.7267 10.6267 13.78 10.5 13.78Z"
+                    fill="#353535"
+            />
+        </svg>
+    </li>
+    <li class="menu-food--chips__item">
+        پرفروش ترین
+        <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+        >
+            <path
+                    d="M10.5 13.78C10.3734 13.78 10.2467 13.7333 10.1467 13.6333L5.80002 9.28668C5.09335 8.58001 5.09335 7.42001 5.80002 6.71335L10.1467 2.36668C10.34 2.17335 10.66 2.17335 10.8534 2.36668C11.0467 2.56001 11.0467 2.88001 10.8534 3.07335L6.50669 7.42001C6.18669 7.74001 6.18669 8.26001 6.50669 8.58001L10.8534 12.9267C11.0467 13.12 11.0467 13.44 10.8534 13.6333C10.7534 13.7267 10.6267 13.78 10.5 13.78Z"
+                    fill="#353535"
+            />
+        </svg>
+    </li>
+    <li class="menu-food--chips__item">
+        اقتصادی ترین
+        <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+        >
+            <path
+                    d="M10.5 13.78C10.3734 13.78 10.2467 13.7333 10.1467 13.6333L5.80002 9.28668C5.09335 8.58001 5.09335 7.42001 5.80002 6.71335L10.1467 2.36668C10.34 2.17335 10.66 2.17335 10.8534 2.36668C11.0467 2.56001 11.0467 2.88001 10.8534 3.07335L6.50669 7.42001C6.18669 7.74001 6.18669 8.26001 6.50669 8.58001L10.8534 12.9267C11.0467 13.12 11.0467 13.44 10.8534 13.6333C10.7534 13.7267 10.6267 13.78 10.5 13.78Z"
+                    fill="#353535"
+            />
+        </svg>
+    </li>
+</ul>
+
+<!-- search box -->
+<div class="search-box-mobile">
+    <div class="search-mobile--function">
+        <div class="function--search--panel">
+            <div class="search-mobile-box">
+                <input
+                        type="text"
+                        name="search-mobileBox"
+                        id="search-mobileBox"
+                        placeholder="جستجو"
+                />
+                <button class="search-mobile-box-img">
+                    <img src="../src/data/search-normal-black.svg" alt="" />
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- iraninan food -->
+<div class="suggestion__bar menu-food iranian--food">
+    <h4>غذاهای ایرانی</h4>
+    <div class="food__menu"></div>
+</div>
+
+<!-- foreign food -->
+<div class="suggestion__bar menu-food foreign--food">
+    <h4>غذاهای غیرایرانی</h4>
+    <div class="food__menu">
+        <!--
+            foods will be here
+           -->
+    </div>
+</div>
+
+<!-- pizzas -->
+<div class="suggestion__bar menu-food pizza--food">
+    <h4>پیتزا</h4>
+    <div class="food__menu">
+        <!--
+        foods will be here
+       -->
+    </div>
+</div>
+
+<!-- sandwiches -->
+<div class="suggestion__bar menu-food sandwich--food">
+    <h4>ساندویچ</h4>
+    <div class="food__menu">
+        <!--
+          foods will be here
+         -->
+    </div>
+</div>
+
+<footer class="footer"></footer>
+
+
+<script src="../js/mune.js" type="module"></script>
+</body>
+</html>

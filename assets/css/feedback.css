@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*direction: ltr;*/
+}
+
+
+.contain{
+    /*display: flex;*/
+    /*align-content: ;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: center;*/
+    /*padding: 0 20px;*/
+
+}
+
+
+.rating form{
+    display: flex;
+    /*width: 100%;*/
+    /*justify-content: center;*/
+    /*height: 150px;*/
+    background-color:#ffff;
+    overflow: hidden;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+
+.rating form > input {
+    display: none;
+    z-index: 100;
+
+}
+
+.rating form>label {
+    cursor:pointer;
+    width: 40px;
+    height: 40px;
+    background-image: url("../img3/img_11.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% ;
+    transition: 0.1s;
+    margin-top: auto;
+}
+.rating form>input:checked~label,
+.rating form>input:checked~label~label{
+    background-image: url("../img3/img_10.png");
+
+}
+.rating form>input:not(:checked) ~label,
+.rating form>input:not(:checked) ~label:hover ~label{
+    background-image: url("../img3/img_11.png");
+}

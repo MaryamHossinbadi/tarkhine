@@ -1,0 +1,26 @@
+@import "_contact.css";
+@import "header.css";
+@import "footer.css";
+@import "_menu.css";
+@import "slider.css";
+@import "bur-foods.css";
+@import "about.css";
+@import "branch.css";
+@import "blog-card.css";
+@import "collapse.css";
+@import "feedback.css";
+@import "search-box.css";
+
+
+@font-face {
+    font-family:Vazir-Medium ;
+    src: url("../fonts/Vazirmatn-Medium.woff2") format("woff2"),
+    url("../fonts/Vazirmatn-Medium.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+.liked{
+    background-color: #fa2276;
+    color: white;
+}
